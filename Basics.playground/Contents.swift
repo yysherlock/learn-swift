@@ -15,8 +15,12 @@ print(strq)
 // make for loop
 for counter in 0..<10 {
     guard counter != 2 else { continue } // Swfit Guard Statement
-                        /* Like an if statement, guard executes statements based on a Boolean value of an expression. Unlike an if statement, guard statements only run if the conditions are not met. You can think of guard more like an Assert, but rather than crashing, you can gracefully exit.
-                        */
+    
+    /* Like an if statement, guard executes statements based on a Boolean value of an\
+    expression. Unlike an if statement, guard statements only run if the conditions are not met. 
+    You can think of guard more like an Assert, but rather than crashing, you can gracefully exit.
+    */
+    
     if counter != 5 {
         print(counter)
     }
